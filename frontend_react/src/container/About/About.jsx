@@ -7,18 +7,14 @@ import "./About.scss"
 
 const abouts = [
   {title: "Frontend Web Development", description: "I am a Web developer", imgUrl: images.about01},
-  {title: "Audio Engineering", description: "I am an Audio Engineer", imgUrl: images.about02},
+  {title: "Audio Engineering", description: "Music, Audio and foley recordign and mixing", imgUrl: images.about02},
   {title: "Customer Service Representative", description: "I am a Web developer and Audio Engineer", imgUrl: images.about03},
-  {title: "Customer Service Representative", description: "I am a Web developer and Audio Engineer", imgUrl: images.about04}
+  {title: "AI implementation", description: "Ir is really important to stay relevant in a fast-growing industry!", imgUrl: images.about04}
 ]
 const About = () => {
   return (
     <>
-      <h2 className="head-text">
-        I Know That
-        <span> Good Design </span><br />
-         means
-        <span> Good Business </span>
+      <h2 className="head-text">I Know That<span> Good Apps </span><br />mean<span> Good Business </span>
       </h2>
 
       <div className="app__profiles">
