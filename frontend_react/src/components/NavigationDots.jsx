@@ -5,8 +5,12 @@ const NavigationDots = ({active}) => {
     <div className='app__navigation'>
         { ["home", "about", "work", "skills", "testimonials", "contact"].map((item, index)=>(
           <li className='app__flex p-text' key={`link-${item}`}>
-            <div></div>
-            <a href={`#${item}`}>{item}</a>
+            <a 
+            href={`#${item}`}
+            key={item+index}
+            className='app__navigation-dot'
+            style={active === item ? {backgroundColor: "313BAC"}:{}}>
+            </a>
           </li>
         ))}
     </div>
